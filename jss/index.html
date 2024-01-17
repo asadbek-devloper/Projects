@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+  <body>
+    <table>
+      <thead>
+        <th>No</th>
+        <th>F.I</th>
+        <th>Login</th>
+        <th>Telefon raqami</th>
+
+        <th>Action</th>
+      </thead>
+      <tbody></tbody>
+    </table>
+
+    <!-- UPDATE USER -->
+    <form class="update-user display-none">
+      <input type="text" placeholder="FirstName" />
+      <input type="text" placeholder="LastName" />
+      <button class="btn">Cancel</button>
+      <button class="btn save-user">Save</button>
+    </form>
+    <button class="btn create-btn" style="margin: 0 50px">Create User</button>
+    <form class="create-user display-none">
+      <input type="text" placeholder="FirstName" />
+      <input type="text" placeholder="LastName" />
+      <input type="text" placeholder="Passport Number" />
+      <input type="text" placeholder="+998-93-123-32-32" />
+      <input type="text" placeholder="Store Name" />
+      <input type="text" placeholder="Username" />
+      <input type="text" placeholder="Password" />
+      <div class="btns">
+        <button class="btn">Cencel</button>
+        <button class="btn create-user-btn">Save</button>
+      </div>
+    </form>
+    <script src="./fetchAPI_CRUD.js"></script>
+    <!-- <script src="./crud.js"></script> -->
+    <!-- <script src="./index.js"></script> -->
+  </body>
+</html>

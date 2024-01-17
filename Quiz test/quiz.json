@@ -1,0 +1,74 @@
+[
+  {
+    "question": "Ushbu gap toʻgʻrimi? 1-sentabr – Mustaqillik kuni.",
+    "options": {
+      "1": "Ha",
+      "2": "Yoq"
+    },
+    "answer": "Yoq"
+  },
+  {
+    "question": "Ushbu gap toʻgʻrimi? Oʻzbekistonning poytaxti – Samarqand shahri.",
+    "options": {
+      "1": "Ha",
+      "2": "Yoq"
+    },
+    "answer": "Yoq"
+  },
+  {
+    "question": "Maktabga 6 yoshdan borsa ham boʻladimi?",
+    "options": {
+      "1": "Ha",
+      "2": "Yoq"
+    },
+    "answer": "Ha"
+  },
+  {
+    "question": "USA yevropada joylashgan.",
+    "options": {
+      "1": "Ha",
+      "2": "Yoq"
+    },
+    "answer": "Yoq"
+  },
+  {
+    "question": "Bu toʻgʻrimi? Oliy Majlis 4 palatadan iborat.    ",
+    "options": {
+      "1": "Ha",
+      "2": "Yoq"
+    },
+    "answer": "Yoq"
+  },
+  {
+    "question": "Oliy Majlisni Bosh vazir boshqaradi.",
+    "options": {
+      "1": "Ha",
+      "2": "Yoq"
+    },
+    "answer": "Yoq"
+  },
+  {
+    "question": "Bu toʻgʻrimi? Senat bu – quyi palata, Qonunchilik palatasi – yuqori palata.    ",
+    "options": {
+      "1": "Ha",
+      "2": "Yoq"
+    },
+    "answer": "Yoq"
+  },
+  {
+    "question": "Oʻzbekistonda shaxs prezidentlik lavozimiga saylanishi uchun kamida 5 yil mamlakat hududida yashagan boʻlishi kerak.",
+    "options": {
+      "1": "Ha",
+      "2": "Yoq"
+    },
+    "answer": "Yoq"
+  },
+  {
+    "question": "Oliy Majlisni Bosh vazir boshqaradi.",
+    "options": {
+      "1": "Ha",
+      "2": "Yoq"
+    },
+    "answer": "Yoq"
+  }
+]

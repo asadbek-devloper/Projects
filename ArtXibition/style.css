@@ -1,0 +1,493 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: #fff;
+    padding: 50px;
+ 
+}
+ul{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+    color: inherit;
+}
+.container{
+    padding: 0 120px;
+}
+/* ============================= Header ============================= */
+.header{
+    background-image: url(./images/960__80_3501781727.jpg);
+    box-shadow: inset 0 120vh rgba(0, 0, 0, 0.36);
+    width: 100%;
+    background-repeat: no-repeat;
+    background-position: bottom;
+    background-size: cover;
+}
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 120px;
+    background-color: #fff;
+    align-items: center;
+}
+.navigation{
+    display: flex;
+    justify-content: space-between;
+    padding: 15px 0 0 0;
+}
+.logo{
+    font-size: 35px;
+    font-weight: 800;
+    color: grey;
+}
+.logo span{
+    color: #000;
+}
+.link{
+    font-size: 20px;
+    color: gray;
+    padding: 10px 25px;
+    text-align: center;
+    position: relative;
+}
+.link:hover{
+    color: #000;
+}
+
+/* ============================= DROP-DOWN ============================= */
+
+.drop-down{
+    display: none;
+    position: absolute;
+    width: 100%;
+    background-color: #fff;
+    color: #000;
+    left: 0;
+    bottom: -230%;
+}
+.drop-down li{
+    padding: 5px;
+    text-align: center;
+}
+.drop-down li:hover{
+    background-color: darkgray ;
+    color: #fff;
+}
+.link:hover .drop-down{
+    display: block;
+}
+
+.times{
+    background-color: rgba(98, 92, 92, 0.563);
+    color: #fff;
+    padding: 20px 100px;
+    display: flex;
+    justify-content: space-around;
+}
+.times_item{
+    font-size: 22px; 
+    text-align: center;
+}
+.times_item span{
+    font-size: 45px;
+    font-weight: 700;
+    text-align: center;
+}
+.opening{
+    padding: 200px 0;
+    color: #fff;
+    text-align: center;
+}
+.opening p{
+    font-size: 22px;
+}
+.opening h1{
+    font-size: 55px;
+    margin: 50px 0;
+    text-transform: capitalize;
+}
+.opening button{
+    outline: hidden;
+    border: none;
+    background-color: #ffffff7d;
+    color: #000000;
+    padding: 12px 30px;
+    font-size: 20px;
+    border-radius: 10px;
+    cursor: pointer;
+}
+.opening button:hover{
+    background-color: #000;
+    color: gray;
+}
+/* ============================= About us ============================= */
+.about_us{
+    background-color: #fff;
+    padding: 200px 0 100px 0;
+    position: relative;
+}
+.about_us_text{
+    display: flex;
+    gap: 120px;
+    padding: 0 120px;
+}
+.about_us_text div *{
+    margin-bottom: 25px;
+}
+.about_us_right p{
+    width: 160px;
+}
+.about_us_text p{
+    color: grey;
+}
+.about_us_text p span{
+    color: blue;
+}
+.gallery div{
+    width: 180px;
+    height: 150px;
+    overflow: hidden;
+    border-radius: 15px;   
+}
+.gallery div:hover{
+    box-shadow: 0 0 10px black;
+}
+.gallery div img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.gallery{
+    display: flex;
+    width: 100%;
+    gap: 50px;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+        top: -50px;
+}
+/* ============================= MAP ============================= */
+.map-card{
+    background-image: url(./images/maps.jpg);
+    box-shadow: inset 0 120vh rgba(0, 0, 0, 0.36);
+    background-repeat: no-repeat;
+    background-position: bottom;
+    background-size: cover;
+    height: 600px;
+}
+.map-lokation1>img{
+    width: 300px;
+    height: 300px;
+    border-radius: 200px;
+    margin-left: 850px;
+    margin-bottom: -470px;
+}
+.map-lokation2>img{
+    width: 200px;
+    height: 200px;
+    border-radius: 100px;
+    margin-left: 540px;
+    margin-bottom: -300px;
+}
+.map-lokation3>img{
+    width: 100px;
+    height: 100px;
+    border-radius: 100px; 
+    margin-left: 450px;
+    margin-bottom: -400px;
+}
+
+/* ========================= Venues & Tickets ========================= */
+
+.tickets{
+    background-color: #fff;
+    color: #000;
+    padding: 20px 0 0 0;
+}
+
+.tickets>h2{
+    text-align: center;
+    padding: 25px 0;
+    font-size: 35px;
+}
+
+.tickets-card{
+    display: flex;
+    justify-content: space-around;
+}
+
+.tickets-card-item{
+    width: 400px;
+    background-color: rgb(92, 92, 92);
+    color: #fff;
+}
+
+.tickets-card-item-image {
+    width: 100%;
+    height: 350px;
+}
+
+.tickets-card-item-image>img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.tickets-card-item-infos {
+    display: flex;
+    gap: 15px;
+    padding: 0 10 0 0;
+}
+
+.card-item-button {
+    background-color: rgb(132, 131, 131);
+    padding: 20px 15px;
+}
+
+.card-item-button>button{
+     outline: hidden;
+     border: none;
+     background-color: #fff;
+     padding: 10px 35px;
+     transform: rotate(270deg);
+     margin-top: 85px;
+}
+
+.card-item-infos>*{
+    margin-bottom: 20px;
+}
+
+.card-item-infos>h3{
+    padding: 15px 0 0 0;
+}
+
+.tickets-members {
+    display: flex;
+    gap: 15px;
+}
+
+.tickets-price{
+    margin: 10px 0 25px 15px;
+    width: 100px;
+    padding: 15px 10px 5px 10px;
+    background-color: rgb(130, 132, 132);
+}
+
+.tickets-price>span{
+    font-size: 23px;
+    font-weight: 680;
+}
+
+.art-hall {
+    background-color: rgb(92, 92, 92);
+    display: flex;
+    margin: 50px 0 0 0;
+}
+
+.art-hall-card{
+    padding: 50px 80px;
+    display: flex;
+    gap: 80px;
+    align-items: center;
+}
+
+.art-hall-card-item {
+    width: 280px;
+    background-color: #fff;
+}
+
+.art-hall-card-item-image {
+    width: 100%;
+    height: 180px;
+}
+
+.art-hall-card-item-image>img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.art-hall-card-iten-infos {
+    padding: 15px 10px;
+}
+
+.art-hall-card-iten-infos>h3 {
+    margin-bottom: 18px;
+}
+
+.art-hall-card-iten-infos>p{
+    margin-bottom: 8px;
+    color: grey;
+    font-size: 14px;
+}
+
+.discover-button {
+    background-color: rgb(132, 131, 131);
+}
+
+.discover-button>button{
+    outline: hidden;
+    border: none;
+    background-color: #fff;
+    padding: 10px 35px;
+    transform: rotate(270deg);
+    margin-top: 150px;
+    width: 150px;
+}
+
+/* =================================== FORM =================================== */
+
+.form{
+    background-color: rgb(147, 145, 145);
+    padding: 25px 120px;
+    color: #fff;
+    display: flex;
+    align-items: center;
+}
+
+.form>label{
+    font-size: 24px;
+    margin-right: 250px;
+}
+
+.form>input::placeholder{
+    font-size: 16px;
+    color: rgb(207, 203, 203);
+}
+
+.form>input{
+    display: inline-block;
+    border: none;
+    background-color: transparent;
+    color: #fff;
+    border-bottom: 2px solid rgb(207, 203, 203);
+    margin-right: 25px;
+    padding: 5px;
+    width: 350px;
+    outline: 0px solid transparent;
+}
+
+.form>button{
+    border: none;
+    outline: hidden;
+    padding: 12px 40px;
+    font-size: 16px;
+    color: #fff;
+    background-color: #000;
+}
+
+/* =================================== FOOTER =================================== */
+
+footer{
+    background-color: #fff;
+}
+
+.festival-infos{
+    display: flex;
+    justify-content: space-between;
+    padding: 60px 0 30px 0;
+}
+
+.festival-infos>h3{
+    font-size: 24px;
+    font-weight: 700;
+    margin: 25px 0;
+}
+
+.usefull-links{
+    text-align: center;
+}
+
+.usefull-links>li{
+    line-height: 24px;
+    color: grey;
+}
+
+.usefull-links>li:hover {
+    color: rgb(43, 43, 43);
+}
+
+.festival-address>p{
+    width: 140px;
+    line-height: 24px;
+    color: gray;
+}
+
+.open-hours {
+    text-align: end;
+}
+
+.open-hours p {
+    line-height: 27px;
+    color: gray;
+}
+
+.web-site-infos {
+    display: flex;
+    justify-content: space-between;
+    margin: 20px 0 40px 0;
+}
+
+.web-site-infos p{
+    color: gray;
+}
+
+.web-site-infos p:nth-child(2) span {
+    color: blue;
+}
+
+.web-site-infos p:nth-child(2) {
+    width: 250px;
+    text-align: right;
+}
+
+.footer-navbar {
+    display: flex;
+    justify-content: space-between;
+    padding: 50px 0 30px 0;
+    background-color: #fff;
+    align-items: center;
+}
+
+.footer-navigation{
+    display: flex;
+    gap: 25px;
+    align-items: center;
+}
+.logo{
+    font-size: 35px;
+    font-weight: 600;
+    color: gray;
+}
+
+.logo span{
+    color: #000;
+}
+
+.footer-link {
+    font-size: 17px;
+    color: gray;
+    text-align: center;
+}
+
+.footer-link:hover{
+    color: #000;
+}
+
+.social-media-links {
+    display: flex;
+    gap: 10px;
+    align-items: center;
+}
+
+.social-media-links>li{
+    width: 38px;
+    height: 38px;
+    background-color: #000;
+    border-radius: 50%;
+    padding:2px ;
+}

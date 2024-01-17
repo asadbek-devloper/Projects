@@ -1,0 +1,135 @@
+*,
+*::after,
+*::before {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+a {
+  text-decoration: none;
+}
+
+ul {
+  list-style: none;
+}
+
+body {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 100px 0 0 0;
+}
+
+button,
+button:active,
+button:focus,
+input,
+input:active,
+input:focus {
+  border: none;
+  outline: none;
+}
+
+.num {
+  position: absolute;
+  top: 10px;
+  left: 10px;
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  background-color: aqua;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: black;
+}
+
+.question-container {
+  width: 440px;
+  height: 540px;
+  overflow: hidden;
+  padding: 15px;
+  border: 1px solid black;
+}
+
+.question-card {
+  /* overflow: auto; */
+  display: flex;
+  gap: 25px;
+
+  justify-content: start;
+  transition: all 0.3s linear;
+  transform: translateX(0);
+}
+
+.question-box {
+  /* margin: 50px; */
+  position: relative;
+  width: 400px;
+  height: 500px;
+  border: 1px solid black;
+  background: url(../quiz.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: space-between;
+  padding: 60px 20px;
+}
+
+.options {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  gap: 25px;
+}
+
+.btn {
+  width: 300px;
+  border-radius: 30px;
+  height: 40px;
+  background-color: blueviolet;
+}
+.num-btn {
+  width: 300px;
+  border-radius: 30px;
+  height: 40px;
+  background-color: blueviolet;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.next {
+  width: 150px;
+  height: 40px;
+  border-radius: 20px;
+}
+
+.correct-answer:focus {
+  background-color: green;
+}
+
+.wrong-answer:focus {
+  background-color: red;
+}
+
+.finished {
+  width: 400px;
+  height: 400px;
+  background: rgba(255, 0, 0, 0.373);
+  position: absolute;
+  top: 23%;
+  left: 37%;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: space-between;
+  padding: 40px 20px;
+}
+
+.display-none {
+  display: none;
+}

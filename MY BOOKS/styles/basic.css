@@ -1,0 +1,83 @@
+@font-face {
+  font-family: Inter;
+  src: url(../assets/fonts/Inter-Regular.ttf);
+}
+
+:root {
+  --black: #4d4d4d;
+  --secundary: #fa7c54;
+  --text-color: #ababab;
+  --white: #fff;
+  --black: #4d4d4d;
+  --black: #4d4d4d;
+  --black: #4d4d4d;
+}
+
+*,
+*::after,
+*::before {
+  padding: 0;
+  margin: 0;
+  box-sizing: inherit;
+}
+
+html {
+  /* font-size: 16px; 100% */
+  font-size: 62.5%; /* = 10px */
+}
+
+body {
+  box-sizing: border-box;
+  font-family: Inter;
+  background: url(../assets/images/Vector\ 2.png);
+  background-repeat: no-repeat;
+  fill: linear-gradient(161deg, #fa7c54 -8.64%, #ec2c5a 121.84%);
+  background-size: cover;
+  padding: 3rem;
+  overflow: hidden;
+}
+
+ul {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+input,
+input:focus,
+input:active,
+button,
+button:active,
+button:focus {
+  border: none;
+  outline: none;
+  background-color: transparent;
+}
+
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: var(--white);
+}
+
+.sidebar-left {
+  width: 20%;
+  height: 95vh;
+  padding: 3.8rem 6.5rem;
+  display: flex;
+  flex-direction: column;
+  gap: 10rem;
+}
+
+.main {
+  width: 80%;
+  height: 95vh;
+}
+.sidebar-left,
+.main {
+  border: 0.1rem solid var(--black);
+}

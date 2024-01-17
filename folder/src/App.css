@@ -1,0 +1,27 @@
+.num {
+  width: 90%;
+  background-color: green;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 20px;
+  margin: 100px auto;
+}
+
+.num h1 {
+  padding: 0 10px;
+  text-align: center;
+  width: auto;
+  height: 50px;
+  color: white;
+  background-color: rgba(0, 0, 0, 0.444);
+}
+
+.num button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 50px;
+  height: 50px;
+  font-size: 25px;
+}

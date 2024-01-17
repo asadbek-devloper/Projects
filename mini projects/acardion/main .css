@@ -1,0 +1,50 @@
+*,
+*::after,
+*::before {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+a {
+  text-decoration: none;
+}
+
+ul {
+  list-style: none;
+}
+
+.accardions {
+  width: 700px;
+  margin: 100px auto;
+  transition: all 0.4 linear;
+}
+
+.accardion {
+  width: 60%;
+  margin: 30px auto;
+  height: 30px;
+  overflow-y: hidden;
+}
+
+.title {
+  font-size: 19px;
+  line-height: 30px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: gray;
+  padding: 0 20px;
+  cursor: pointer;
+  /* margin: 0 0 20px 0; */
+}
+
+.text {
+  padding: 10px 20px;
+}
+
+.activeAcc {
+  height: auto;
+  overflow-y: auto;
+  background-color: darkgray;
+}

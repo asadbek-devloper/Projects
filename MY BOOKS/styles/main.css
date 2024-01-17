@@ -1,0 +1,9 @@
+/* body {
+  background: url(../assets/images/Vector\ 2.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+} */
+
+@import url("./basic.css");
+@import url("./style.css");
+@import url("./queries.css");

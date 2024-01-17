@@ -1,0 +1,114 @@
+/* .navbar {
+  background-color: rgba(208, 255, 0, 0.75);
+} */
+
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.ul-links {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  list-style: none;
+}
+
+.ul-links > li {
+  color: rgb(31, 11, 255);
+  font-size: 17px;
+  cursor: pointer;
+}
+
+.logo {
+  font-size: 30px;
+  color: blue;
+  font-weight: 700;
+}
+
+.navbar {
+  padding: 20px 100px;
+
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.navbar-logo {
+  display: flex;
+  align-items: center;
+}
+
+.f-icon {
+  width: 34px;
+
+  padding: 8px;
+  border-radius: 8px;
+  background: #39db4a;
+  display: flex;
+  /* align-items: center; */
+  justify-content: center;
+}
+
+.navigation {
+  display: flex;
+  align-items: center;
+  gap: 50px;
+}
+
+.navigation > li {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+  color: #272727;
+  font-family: Poppins;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  cursor: pointer;
+}
+
+.korzina {
+  position: relative;
+  border: none;
+  background-color: inherit;
+}
+
+.menu-btn {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 50px;
+}
+
+.down {
+  transform: rotate(0.5turn);
+}
+
+.unver-btn {
+  /* width: 179px; */
+  padding: 17px 30px;
+  border: none;
+  flex-shrink: 0;
+  border-radius: 40px;
+  background: #39db4a;
+}
+
+.korzina-length {
+  top: -10px;
+  left: 20px;
+  position: absolute;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 20px;
+  height: 20px;
+}
+
+.korzina-bag {
+  border: 1px solid yellowgreen;
+  border-radius: 50%;
+  background-color: greenyellow;
+  /* color: white; */
+}

@@ -1,0 +1,155 @@
+.container {
+  padding: 0 100px;
+  display: flex;
+  gap: 50px;
+}
+
+.left {
+  /* width: 50%; */
+  display: flex;
+  /* align-items: center; */
+  flex-direction: column;
+  justify-content: space-between;
+  gap: 60px;
+}
+
+.left > h1 {
+  color: #000;
+  font-family: Inter;
+  font-size: 62px;
+  font-style: normal;
+  font-weight: 800;
+  line-height: 145.523%; /* 90.224px */
+}
+
+.left > h1 > span {
+  color: #39db4a;
+}
+
+.left > p {
+  color: #4a4a4a;
+  font-family: Inter;
+  font-size: 26px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 170.5%; /* 44.33px */
+}
+
+.other-box {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.unver-btn {
+  width: 229px;
+  height: 60px;
+  border-radius: 40px;
+  background: #39db4a;
+  box-shadow: -2px 22px 38px 0px rgba(142, 255, 154, 0.5);
+}
+
+.watch-box {
+  display: flex;
+  align-items: center;
+  gap: 30px;
+}
+
+.watch-box > span {
+  color: #4d4d4d;
+  font-family: Inter;
+  font-size: 26px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+}
+
+.watch-btn {
+  width: 60px;
+  height: 60px;
+  border: 1px solid black;
+  background-color: #fff;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.backbg > img {
+  top: 36px;
+  width: 100%;
+  height: 500px;
+  border-radius: 25px;
+  box-shadow: 10px 10px 5px greenyellow;
+  animation: boxShadow 40s infinite;
+  -webkit-animation: boxShadow 40s infinite;
+}
+
+.recommendedFoods {
+  display: flex;
+  gap: 25px;
+}
+
+.recommendedFoods .food {
+  margin-top: -70px;
+  margin-left: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  width: 320px;
+  height: 132px;
+  border-radius: 25px;
+  background: #fff;
+  box-shadow: 7px 35px 51px 0px rgba(0, 0, 0, 0.14);
+}
+
+.food:hover {
+  transform: translateY(-5px);
+  transition: 0.3s linear;
+  cursor: pointer;
+  background-color: wheat;
+}
+
+.food > img {
+  width: 120px;
+  height: 120px;
+  border-radius: 25px;
+}
+
+.food .other-itme {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.other-itme > h5 {
+  color: #2c2c2c;
+  font-family: Inter;
+  font-size: 22px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+}
+
+.other-itme .stars {
+  display: flex;
+  gap: 5px;
+}
+
+.other-itme > p > span {
+  color: #515151;
+  font-family: Inter;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+}
+
+.other-itme > p {
+  color: #ff7979;
+  font-family: Inter;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+}
